@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECAE9DBC2E337FD300829479 /* TimeTrackerWatchApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = ECAE9DBB2E337FD300829479 /* TimeTrackerWatchApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECAE9DBD2E337FD300829479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECAE9DAF2E337FD200829479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECAE9DBA2E337FD300829479;
+			remoteInfo = "TimeTrackerWatchApp Watch App";
+		};
+		ECAE9DCB2E337FDA00829479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECAE9DAF2E337FD200829479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECAE9DBA2E337FD300829479;
+			remoteInfo = "TimeTrackerWatchApp Watch App";
+		};
+		ECAE9DD52E337FDA00829479 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECAE9DAF2E337FD200829479 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECAE9DBA2E337FD300829479;
+			remoteInfo = "TimeTrackerWatchApp Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECAE9DE12E337FDA00829479 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				ECAE9DBC2E337FD300829479 /* TimeTrackerWatchApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ECAE9DB52E337FD300829479 /* TimeTrackerWatchApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeTrackerWatchApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAE9DBB2E337FD300829479 /* TimeTrackerWatchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimeTrackerWatchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAE9DCA2E337FDA00829479 /* TimeTrackerWatchApp Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimeTrackerWatchApp Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECAE9DD42E337FDA00829479 /* TimeTrackerWatchApp Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TimeTrackerWatchApp Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ECAE9DBF2E337FD300829479 /* TimeTrackerWatchApp Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TimeTrackerWatchApp Watch App";
+			sourceTree = "<group>";
+		};
+		ECAE9DCD2E337FDA00829479 /* TimeTrackerWatchApp Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TimeTrackerWatchApp Watch AppTests";
+			sourceTree = "<group>";
+		};
+		ECAE9DD72E337FDA00829479 /* TimeTrackerWatchApp Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "TimeTrackerWatchApp Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECAE9DB82E337FD300829479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAE9DC72E337FDA00829479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAE9DD12E337FDA00829479 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECAE9DAE2E337FD200829479 = {
+			isa = PBXGroup;
+			children = (
+				ECAE9DBF2E337FD300829479 /* TimeTrackerWatchApp Watch App */,
+				ECAE9DCD2E337FDA00829479 /* TimeTrackerWatchApp Watch AppTests */,
+				ECAE9DD72E337FDA00829479 /* TimeTrackerWatchApp Watch AppUITests */,
+				ECAE9DB62E337FD300829479 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECAE9DB62E337FD300829479 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECAE9DB52E337FD300829479 /* TimeTrackerWatchApp.app */,
+				ECAE9DBB2E337FD300829479 /* TimeTrackerWatchApp Watch App.app */,
+				ECAE9DCA2E337FDA00829479 /* TimeTrackerWatchApp Watch AppTests.xctest */,
+				ECAE9DD42E337FDA00829479 /* TimeTrackerWatchApp Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECAE9DB42E337FD300829479 /* TimeTrackerWatchApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAE9DE22E337FDA00829479 /* Build configuration list for PBXNativeTarget "TimeTrackerWatchApp" */;
+			buildPhases = (
+				ECAE9DB32E337FD300829479 /* Resources */,
+				ECAE9DE12E337FDA00829479 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECAE9DBE2E337FD300829479 /* PBXTargetDependency */,
+			);
+			name = TimeTrackerWatchApp;
+			packageProductDependencies = (
+			);
+			productName = TimeTrackerWatchApp;
+			productReference = ECAE9DB52E337FD300829479 /* TimeTrackerWatchApp.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		ECAE9DBA2E337FD300829479 /* TimeTrackerWatchApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAE9DDE2E337FDA00829479 /* Build configuration list for PBXNativeTarget "TimeTrackerWatchApp Watch App" */;
+			buildPhases = (
+				ECAE9DB72E337FD300829479 /* Sources */,
+				ECAE9DB82E337FD300829479 /* Frameworks */,
+				ECAE9DB92E337FD300829479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ECAE9DBF2E337FD300829479 /* TimeTrackerWatchApp Watch App */,
+			);
+			name = "TimeTrackerWatchApp Watch App";
+			packageProductDependencies = (
+			);
+			productName = "TimeTrackerWatchApp Watch App";
+			productReference = ECAE9DBB2E337FD300829479 /* TimeTrackerWatchApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECAE9DC92E337FDA00829479 /* TimeTrackerWatchApp Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAE9DE52E337FDA00829479 /* Build configuration list for PBXNativeTarget "TimeTrackerWatchApp Watch AppTests" */;
+			buildPhases = (
+				ECAE9DC62E337FDA00829479 /* Sources */,
+				ECAE9DC72E337FDA00829479 /* Frameworks */,
+				ECAE9DC82E337FDA00829479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECAE9DCC2E337FDA00829479 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ECAE9DCD2E337FDA00829479 /* TimeTrackerWatchApp Watch AppTests */,
+			);
+			name = "TimeTrackerWatchApp Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "TimeTrackerWatchApp Watch AppTests";
+			productReference = ECAE9DCA2E337FDA00829479 /* TimeTrackerWatchApp Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECAE9DD32E337FDA00829479 /* TimeTrackerWatchApp Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECAE9DE82E337FDA00829479 /* Build configuration list for PBXNativeTarget "TimeTrackerWatchApp Watch AppUITests" */;
+			buildPhases = (
+				ECAE9DD02E337FDA00829479 /* Sources */,
+				ECAE9DD12E337FDA00829479 /* Frameworks */,
+				ECAE9DD22E337FDA00829479 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECAE9DD62E337FDA00829479 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ECAE9DD72E337FDA00829479 /* TimeTrackerWatchApp Watch AppUITests */,
+			);
+			name = "TimeTrackerWatchApp Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "TimeTrackerWatchApp Watch AppUITests";
+			productReference = ECAE9DD42E337FDA00829479 /* TimeTrackerWatchApp Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECAE9DAF2E337FD200829479 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					ECAE9DB42E337FD300829479 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					ECAE9DBA2E337FD300829479 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					ECAE9DC92E337FDA00829479 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = ECAE9DBA2E337FD300829479;
+					};
+					ECAE9DD32E337FDA00829479 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = ECAE9DBA2E337FD300829479;
+					};
+				};
+			};
+			buildConfigurationList = ECAE9DB22E337FD200829479 /* Build configuration list for PBXProject "TimeTrackerWatchApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECAE9DAE2E337FD200829479;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ECAE9DB62E337FD300829479 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECAE9DB42E337FD300829479 /* TimeTrackerWatchApp */,
+				ECAE9DBA2E337FD300829479 /* TimeTrackerWatchApp Watch App */,
+				ECAE9DC92E337FDA00829479 /* TimeTrackerWatchApp Watch AppTests */,
+				ECAE9DD32E337FDA00829479 /* TimeTrackerWatchApp Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECAE9DB32E337FD300829479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAE9DB92E337FD300829479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAE9DC82E337FDA00829479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAE9DD22E337FDA00829479 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECAE9DB72E337FD300829479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAE9DC62E337FDA00829479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECAE9DD02E337FDA00829479 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECAE9DBE2E337FD300829479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECAE9DBA2E337FD300829479 /* TimeTrackerWatchApp Watch App */;
+			targetProxy = ECAE9DBD2E337FD300829479 /* PBXContainerItemProxy */;
+		};
+		ECAE9DCC2E337FDA00829479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECAE9DBA2E337FD300829479 /* TimeTrackerWatchApp Watch App */;
+			targetProxy = ECAE9DCB2E337FDA00829479 /* PBXContainerItemProxy */;
+		};
+		ECAE9DD62E337FDA00829479 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECAE9DBA2E337FD300829479 /* TimeTrackerWatchApp Watch App */;
+			targetProxy = ECAE9DD52E337FDA00829479 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ECAE9DDC2E337FDA00829479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 57SJGDPNCC;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECAE9DDD2E337FDA00829479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 57SJGDPNCC;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ECAE9DDF2E337FDA00829479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57SJGDPNCC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeTrackerWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.davelee.TimeTrackerWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		ECAE9DE02E337FDA00829479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57SJGDPNCC;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeTrackerWatchApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.davelee.TimeTrackerWatchApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		ECAE9DE32E337FDA00829479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57SJGDPNCC;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeTrackerWatchApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.davelee.TimeTrackerWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ECAE9DE42E337FDA00829479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57SJGDPNCC;
+				INFOPLIST_KEY_CFBundleDisplayName = TimeTrackerWatchApp;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = de.davelee.TimeTrackerWatchApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECAE9DE62E337FDA00829479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57SJGDPNCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.davelee.TimeTrackerWatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeTrackerWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeTrackerWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		ECAE9DE72E337FDA00829479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57SJGDPNCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.davelee.TimeTrackerWatchApp-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeTrackerWatchApp Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TimeTrackerWatchApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		ECAE9DE92E337FDA00829479 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57SJGDPNCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.davelee.TimeTrackerWatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TimeTrackerWatchApp Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		ECAE9DEA2E337FDA00829479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 57SJGDPNCC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.davelee.TimeTrackerWatchApp-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TimeTrackerWatchApp Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECAE9DB22E337FD200829479 /* Build configuration list for PBXProject "TimeTrackerWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAE9DDC2E337FDA00829479 /* Debug */,
+				ECAE9DDD2E337FDA00829479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAE9DDE2E337FDA00829479 /* Build configuration list for PBXNativeTarget "TimeTrackerWatchApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAE9DDF2E337FDA00829479 /* Debug */,
+				ECAE9DE02E337FDA00829479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAE9DE22E337FDA00829479 /* Build configuration list for PBXNativeTarget "TimeTrackerWatchApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAE9DE32E337FDA00829479 /* Debug */,
+				ECAE9DE42E337FDA00829479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAE9DE52E337FDA00829479 /* Build configuration list for PBXNativeTarget "TimeTrackerWatchApp Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAE9DE62E337FDA00829479 /* Debug */,
+				ECAE9DE72E337FDA00829479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECAE9DE82E337FDA00829479 /* Build configuration list for PBXNativeTarget "TimeTrackerWatchApp Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECAE9DE92E337FDA00829479 /* Debug */,
+				ECAE9DEA2E337FDA00829479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECAE9DAF2E337FD200829479 /* Project object */;
+}
