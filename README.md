@@ -1,6 +1,6 @@
-# Time Tracker
-
-## Introduction
+<p align="center">
+<img src="https://www.davelee.de/common/assets/img/portfolio/timetracker.webp" alt="TimeTracker" width="300" height="300">
+</p>
 
 With a touch of an iPhone or Apple Watch, TimeTracker starts or stops the time for a particular activity.
 
